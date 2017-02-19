@@ -1,0 +1,27 @@
+{
+  "name": "node-mocha-chai-typescript-seed",
+  "version": "1.0.0",
+  "description": "A Node.JS seed with Mocha, Chai and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./dist/test --reporter spec",
+    "build": "./node_modules/.bin/tsc",
+    "clean": "trash ./dist"
+  },
+  "keywords": [
+    "node",
+    "mocha",
+    "chai",
+    "typescript"
+  ],
+  "author": "Cedric Chariere Fiedler",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.39",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "trash-cli": "^1.4.0",
+    "typescript": "^2.1.6"
+  }
+}
